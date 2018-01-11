@@ -50,7 +50,7 @@
     "doc": "jsdoc src -d docs",
     "lint": "eslint src",
     "lint2": "eslint enhance-rn.js",
-    "postinstall": "npm install && npm run build:es"
+    "postinstall": "npm install --ignore-scripts && npm run build:es"
   },
   "main": "lib/index.js",
   "react-native": {
